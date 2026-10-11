@@ -16,3 +16,4 @@
 | Туристическая виза в Австрию (Шенген, тип C) для граждан России, проживающих в Сербии | [articles/austria-tourist-visa-russians-serbia.md](articles/austria-tourist-visa-russians-serbia.md) | — |
 | Туристическая виза в Германию (Шенген, тип C) для граждан России, проживающих в Сербии | [articles/germany-tourist-visa-russians-serbia.md](articles/germany-tourist-visa-russians-serbia.md) | — |
 | Туристическая виза в Хорватию (Шенген, тип C) для граждан России, проживающих в Сербии | [articles/croatia-tourist-visa-russians-serbia.md](articles/croatia-tourist-visa-russians-serbia.md) | — |
+| Краткосрочная туристическая виза в Испанию для граждан России, проживающих в Сербии | [articles/spain-tourist-visa-russians-serbia.md](articles/spain-tourist-visa-russians-serbia.md) | — |
