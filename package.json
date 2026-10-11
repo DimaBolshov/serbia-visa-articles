@@ -1,0 +1,12 @@
+{
+  "name": "serbia-visa-articles-site",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "bun scripts/build.mjs",
+    "dev": "bun scripts/serve.mjs"
+  },
+  "dependencies": {
+    "marked": "^18.1.0"
+  }
+}
