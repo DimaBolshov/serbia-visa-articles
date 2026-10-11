@@ -28,3 +28,4 @@
 | Туристическая виза в Северную Македонию для граждан России, проживающих в Сербии | [articles/north-macedonia-tourist-visa-russians-serbia.md](articles/north-macedonia-tourist-visa-russians-serbia.md) | — |
 | Краткосрочная виза в Нидерланды для граждан России, проживающих в Сербии: приём заявлений только в ограниченных случаях | [articles/netherlands-tourist-visa-russians-serbia.md](articles/netherlands-tourist-visa-russians-serbia.md) | — |
 | Туристическая виза в Португалию (Шенген, тип C) для граждан России, проживающих в Сербии | [articles/portugal-tourist-visa-russians-serbia.md](articles/portugal-tourist-visa-russians-serbia.md) | — |
+| Въезд в Китай (безвиз и туристическая виза L) для граждан России, проживающих в Сербии | [articles/china-tourist-visa-russians-serbia.md](articles/china-tourist-visa-russians-serbia.md) | — |
