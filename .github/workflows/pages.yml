@@ -3,13 +3,6 @@ name: Deploy site to GitHub Pages
 on:
   push:
     branches: [main]
-    paths:
-      - "articles/**"
-      - "site/**"
-      - "scripts/**"
-      - "package.json"
-      - "bun.lock"
-      - ".github/workflows/pages.yml"
   workflow_dispatch:
 
 permissions:
@@ -27,7 +20,7 @@ jobs:
     steps:
       - uses: actions/checkout@v7
         with:
-          fetch-depth: 0 # даты «Обновлено» берутся из истории git
+          fetch-depth: 0 # запасной вариант даты статьи (если нет строки «Актуально на») берётся из истории git
       - uses: oven-sh/setup-bun@v2
       - run: bun install --frozen-lockfile
       - id: pages

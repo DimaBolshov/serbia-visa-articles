@@ -111,6 +111,12 @@ const renderer = {
   },
 };
 
+// Дата «Актуально на» из самой статьи; если строки нет, дата последнего коммита, затем mtime файла.
+function asOfDate(md) {
+  const m = md.match(/\*\*Актуально на:\*\*\s*(\d{2})\.(\d{2})\.(\d{4})/);
+  return m ? new Date(Date.UTC(+m[3], +m[2] - 1, +m[1])) : null;
+}
+
 function gitDate(file, fallback) {
   try {
     const out = execFileSync("git", ["log", "-1", "--format=%cI", "--", `articles/${file}`], {
@@ -128,7 +134,7 @@ async function buildArticle(file) {
   const slug = file.replace(/\.md$/, "");
   const full = path.join(SRC, file);
   const md = (await readFile(full, "utf8")).replace(/^﻿/, "").replace(/\r\n/g, "\n");
-  const updated = gitDate(file, (await stat(full)).mtime);
+  const updated = asOfDate(md) ?? gitDate(file, (await stat(full)).mtime);
 
   const m = new Marked({ gfm: true, renderer });
   const tokens = m.lexer(md);
@@ -248,7 +254,7 @@ function articlePage(a, assetV) {
 <article class="article">
   <nav class="crumbs" aria-label="Навигация"><a href="../">← Все статьи</a></nav>
   <h1>${esc(a.title)}</h1>
-  <p class="meta">Обновлено ${ruDate(a.updated)} · <a href="${REPO_URL}/blob/main/articles/${esc(a.file)}" target="_blank" rel="noopener noreferrer">исходник на GitHub</a></p>
+  <p class="meta">Актуально на ${ruDate(a.updated)} · <a href="${REPO_URL}/blob/main/articles/${esc(a.file)}" target="_blank" rel="noopener noreferrer">исходник на GitHub</a></p>
   <div class="lead">${a.leadHtml}</div>
   ${a.noteHtml ? `<aside class="note">${a.noteHtml}</aside>` : ""}
   <p class="legend"><span class="src-chat">чат</span> — опыт заявителей из чата: официального подтверждения нет, проверьте перед подачей.</p>
@@ -278,7 +284,7 @@ function indexPage(articles, assetV) {
       <a href="articles/${esc(a.slug)}.html">
         <span class="country">${esc(a.country)}</span>
         <span class="title">${esc(a.title)}</span>
-        <span class="date">Обновлено ${ruDate(a.updated)}</span>
+        <span class="date">Актуально на ${ruDate(a.updated)}</span>
       </a>
     </li>`,
     )
