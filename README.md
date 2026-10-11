@@ -24,3 +24,4 @@
 | Краткосрочная (туристическая) виза в Болгарию для граждан России, проживающих в Сербии | [articles/bulgaria-tourist-visa-russians-serbia.md](articles/bulgaria-tourist-visa-russians-serbia.md) | — |
 | Национальная виза D в Польшу (долгосрочная, не краткосрочная туристическая) для граждан России, проживающих в Сербии | [articles/poland-visa-d-russians-serbia.md](articles/poland-visa-d-russians-serbia.md) | — |
 | Краткосрочная (туристическая) электронная виза в Албанию для граждан России, проживающих в Сербии | [articles/albania-tourist-visa-russians-serbia.md](articles/albania-tourist-visa-russians-serbia.md) | — |
+| Туристическая виза в Словакию (Шенген, тип C) для граждан России, проживающих в Сербии | [articles/slovakia-tourist-visa-russians-serbia.md](articles/slovakia-tourist-visa-russians-serbia.md) | — |
