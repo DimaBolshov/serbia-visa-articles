@@ -7,3 +7,4 @@
 |---|---|---|
 | Туристическая виза на Кипр для граждан России, проживающих в Сербии | [articles/cyprus-tourist-visa-russians-serbia.md](articles/cyprus-tourist-visa-russians-serbia.md) | — |
 | Туристическая виза в Японию для граждан России, проживающих в Сербии | [articles/japan-tourist-visa-russians-serbia.md](articles/japan-tourist-visa-russians-serbia.md) | — |
+| Туристическая виза США (B-1/B-2) для граждан России, проживающих в Сербии | [articles/usa-tourist-visa-russians-serbia.md](articles/usa-tourist-visa-russians-serbia.md) | — |
