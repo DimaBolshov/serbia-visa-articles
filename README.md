@@ -29,3 +29,4 @@
 | Краткосрочная виза в Нидерланды для граждан России, проживающих в Сербии: приём заявлений только в ограниченных случаях | [articles/netherlands-tourist-visa-russians-serbia.md](articles/netherlands-tourist-visa-russians-serbia.md) | — |
 | Туристическая виза в Португалию (Шенген, тип C) для граждан России, проживающих в Сербии | [articles/portugal-tourist-visa-russians-serbia.md](articles/portugal-tourist-visa-russians-serbia.md) | — |
 | Въезд в Китай (безвиз и туристическая виза L) для граждан России, проживающих в Сербии | [articles/china-tourist-visa-russians-serbia.md](articles/china-tourist-visa-russians-serbia.md) | — |
+| Краткосрочная виза в Швецию для граждан России, проживающих в Сербии: подача через VFS Global в Белграде, решение в посольстве в Скопье | [articles/sweden-tourist-visa-russians-serbia.md](articles/sweden-tourist-visa-russians-serbia.md) | — |
