@@ -11,3 +11,4 @@
 | Туристическая виза в Швейцарию (Шенген, тип C) для граждан России, проживающих в Сербии | [articles/switzerland-tourist-visa-russians-serbia.md](articles/switzerland-tourist-visa-russians-serbia.md) | — |
 | Туристическая виза в Венгрию (Шенген, тип C) для граждан России, проживающих в Сербии | [articles/hungary-tourist-visa-russians-serbia.md](articles/hungary-tourist-visa-russians-serbia.md) | — |
 | Краткосрочная туристическая виза в Бельгию для граждан России, проживающих в Сербии | [articles/belgium-tourist-visa-russians-serbia.md](articles/belgium-tourist-visa-russians-serbia.md) | — |
+| Туристическая виза в Великобританию (Standard Visitor) для граждан России, проживающих в Сербии | [articles/united-kingdom-tourist-visa-russians-serbia.md](articles/united-kingdom-tourist-visa-russians-serbia.md) | — |
